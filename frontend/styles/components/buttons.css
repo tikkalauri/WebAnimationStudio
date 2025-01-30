@@ -1,0 +1,63 @@
+.btn-add-elem {
+    width: 100%;
+    padding: .6rem 0.5rem;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    gap: 0.5rem;
+    color: var(--txt-color);
+    align-items: center;
+}
+
+.btn-add-elem:hover {
+    background-color: var(--action-color);
+}
+
+.btn-primary {
+    width: 80%;
+    padding: .6rem 0.5rem;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--txt-color);
+    align-items: center;
+}
+
+.btn-primary:hover {
+    background-color: var(--action-color);
+}
+
+/* sb-btn = sidebar button */
+.sb-btn {
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.sb-btn:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.sb-btn.open-panel {
+    background-color: rgb(60, 60, 60);
+}
+
+.sb-btn svg {
+    fill: #FFFF;
+    width: 20px;
+    height: 20px;
+}
+
+/* Choosing the element type in the add element panel. */
+.elem-type-btn {
+    padding: .6rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}

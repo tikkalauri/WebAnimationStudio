@@ -1,0 +1,19 @@
+.font-primary {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-primary--caption {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.font-primary--body {
+    font-size: 0.8rem;
+}
+
+.font-primary--label {
+    font-size: 0.7rem;
+    font-weight: 500;
+}

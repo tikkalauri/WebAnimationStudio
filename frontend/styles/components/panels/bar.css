@@ -1,0 +1,10 @@
+.bar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    background-color: var(--panel-bg);
+    padding: 10px 20px;
+    color: white;
+    border-top: var(--border);
+}

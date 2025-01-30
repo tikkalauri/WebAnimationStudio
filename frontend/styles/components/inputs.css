@@ -1,0 +1,13 @@
+.properties-input {
+    border: none;
+    border-radius: var(--radius);
+    outline: none;
+    padding: 0.4rem 0.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--txt-color);
+    margin-top: 0.2rem;
+}
+
+.properties-input--dark {
+    background-color: var(--action-color);
+}

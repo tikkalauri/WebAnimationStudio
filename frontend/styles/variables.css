@@ -1,0 +1,18 @@
+:root {
+    /* Sizing */
+    --workspace-spacing1: 0px;
+    --radius: 5px;
+
+    /* Colors */
+    --accent-color: blue;
+    --bg-dark: #000;
+    --panel-bg: #2C2C2C;
+    --border: solid 1px #444444;
+    --action-color: #383838;
+    --txt-color: #FFFF;
+    --btn-color: rgb(98, 98, 98);
+
+    /* Text sizing */
+    --heading2: 16px;
+}
+

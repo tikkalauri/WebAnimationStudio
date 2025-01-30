@@ -1,0 +1,50 @@
+.sidebar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 33px;
+    margin-right: var(--workspace-spacing1);
+    background-color: var(--panel-bg);
+    border-right: var(--border);
+}
+
+.left-panel {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: var(--panel-bg);
+    margin-right: var(--workspace-spacing1);
+    border-right: var(--border);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--h-color);
+}
+
+.lp-h-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--h-color);
+}
+
+.right-panel {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: var(--panel-bg);
+    margin-left: var(--workspace-spacing1);
+    border-left: var(--border);
+    color: var(--h-color);
+}
+
+/* Sidebar button */
+.sb-btn-container {
+    box-sizing: border-box;
+    flex: 1;
+    padding-top: 5px;
+    background-color: transparent;
+}
