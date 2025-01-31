@@ -17,7 +17,10 @@ body {
     cursor: pointer;
 }
 
-.selected {
-    outline: solid 1px rgb(33, 120, 220);
-    outline-offset: 2px;
+.selected {}
+
+.outline-selected {
+    background-color: transparent;
+    border: solid 1px blue;
+    position: relative;
 }
