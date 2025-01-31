@@ -58,7 +58,7 @@ function openLeftPanel(content) {
 
         const viewportContainer = middleContainer.children[1];
         const viewportContainerRect = viewportContainer.getBoundingClientRect();
-        
+
         leftPanel.style.top = `${viewportContainerRect.top}px`;
         leftPanel.style.left = `${viewportContainerRect.left}px`;
         leftPanel.style.height = `${viewportContainerRect.height}px`;
@@ -76,7 +76,7 @@ function openLeftPanel(content) {
                     const elemType = btn.id;
                     const createdElem = addElem(elemType);
 
-                    createdElem.classList.add("selected");
+//                    createdElem.classList.add("selected");
                 } else {
                     console.log("No ID found.");
                 }

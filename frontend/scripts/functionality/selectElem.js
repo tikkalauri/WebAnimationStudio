@@ -5,3 +5,7 @@ export function selectElem(elem) {
 export function unselectElem(elem) {
     elem.classList.remove("selected");
 }
+
+export function isSelected(elem) {
+    return elem.classList.contains("selected");
+}
