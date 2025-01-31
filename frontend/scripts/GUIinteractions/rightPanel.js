@@ -115,5 +115,3 @@ function showProperties(elem, inputs) {
         input.value = elemComputedStyle[property]
     });
 }
-
-

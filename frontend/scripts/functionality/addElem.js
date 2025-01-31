@@ -42,6 +42,8 @@ export function addElem(elem) {
             unselectAll();
         }
 
+        elemSelected = false
+
         const rightPanel = document.getElementById("right-panel");
         rightPanel.innerHTML = "";
     });
@@ -50,3 +52,9 @@ export function addElem(elem) {
 
     return element;
 }
+
+document.addEventListener('keydown', (event) => {
+    if (event.key == "Delete" && elemSelected) {
+        document.querySelector(".selected").remove();
+    }
+});
